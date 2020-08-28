@@ -1,0 +1,459 @@
+
+html,body{
+    height: 100%;
+}
+
+body{
+    font-family: 'Poppins', sans-serif;
+    width: 100%;
+    height: 100%;
+    font-size: 15px;
+    line-height: 1.7;
+    color: #333333;
+    font-weight: 400;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6{
+    color: #333333;
+    font-weight: 600;
+}
+
+p {
+    letter-spacing: 0;
+    line-height:1.8;
+}
+
+a{
+    text-decoration: none;
+    -webkit-transition: all 0.4s;
+    -o-transition: all 0.4s;
+    transition: all 0.4s;
+}
+
+a:focus{
+    outline:none;
+    text-decoration: none;
+}
+
+ul,li{
+    margin: 0;
+    padding: 0;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+.section-padding{
+    padding: 60px 0;
+}
+
+.section-header{
+    margin-bottom: 60px;
+    text-align: center;
+}
+
+.section-header h2 {
+    display: inline-block;
+    padding: 5px;
+    margin: 5px 0;
+}
+
+.line-one {
+    height: 1px;
+    width: 100px;
+    background: #E91E63;
+    display: block;
+    margin: 0 auto;
+    padding: 0;
+}
+
+
+
+/*---------- 4. Nav area css starts -------------*/
+
+.nav-area{
+    height: 65px;
+}
+
+.navbar-nav {
+    margin-top: 15px;
+}
+
+.navigation{
+    background-color: #000000;
+}
+
+
+
+.navbar{
+    border:0;
+    margin-bottom: 0;
+}
+
+.navbar-brand{
+    padding: 25px 0;
+    text-transform: uppercase;
+    font-size: 25px;
+    display: block;
+    color: #ffffff;
+    font-weight: 800;
+}
+
+.logo {
+    padding: 5px;
+    font-size: 32px;
+    letter-spacing: 3px;
+}
+
+.navbar-brand:focus, .navbar-brand:hover {
+    text-decoration: none;
+    color: #e91e63;
+}
+
+.navbar-right li{
+    display: inline-block;
+    float: none;
+}
+
+.navbar-right li a{
+    color: #ffffff;
+    text-transform: uppercase;
+    font-weight: 600;
+}
+
+
+
+
+
+/*---------- Nav area css ends -------------*/
+
+/*----------- 5. Banner area css starts--------------*/
+
+
+.banner-area{
+    background-image: url(https://unsplash.com/photos/halizsS8ESA/download?force=true.jpg);
+    background-position: center;
+    background-size:cover;
+    position: relative;
+    height: 100%;
+}
+
+.banner-area::before {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0,0,0,0.5);
+    content: '';
+}
+
+canvas{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+}
+
+.banner-table{
+    display: table;
+    margin: 0;
+    position: relative;
+    height: 100%;
+    width: 100%;
+    z-index: 1;
+}
+
+.banner-table-cell{
+    display: table-cell;
+    vertical-align: middle;
+    text-align: center;
+}
+
+.welcome-text .intro h2 {
+    color: #fff;
+    font-size: 85px;
+    font-weight: 800;
+    margin-bottom: 10px;
+}
+
+.intro h1 {
+    color: #ffffff;
+    font-size: 60px;
+    font-weight: 200;
+    margin: 0;
+}
+
+.ah-headline.clip .ah-words-wrapper::after {
+    background-color: #fff;
+}
+
+.banner-btn {
+    background: #E91E63;
+    text-decoration: none;
+    padding: 10px 30px;
+    display: inline-block;
+    margin-top: 25px;
+    color: #fff;
+    text-transform: uppercase;
+    -webkit-border-radius:5px;
+    -moz-border-radius:5px;
+    border-radius:5px;
+}
+.banner-btn:hover, .banner-btn:focus {
+    text-decoration: none;
+    color: #ffffff;
+}
+
+.welcome-text h3 {
+    color: #fff;
+    text-transform: uppercase;
+}
+
+
+/*---------Banner area css ends--------------*/
+
+/*---------- 6. About area css starts---------------*/
+
+.about-text-left h2 {
+    font-weight: 700;
+    font-size: 36px;
+    color: #212121;
+    line-height: 1;
+    text-align: right;
+    margin-bottom: 5px;
+}
+
+.about-text-left h3 {
+    color: #212121;
+    font-size: 14px;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    text-align: right;
+    margin-bottom: 18px;
+}
+
+.about-text-left p{
+    text-align: right;
+    font-size: 13px;
+    color: #222;
+    margin-bottom: 50px;
+}
+
+.about-text-left a {
+    color: #fff;
+    font-size: 14px;
+    text-transform: uppercase;
+    background: #E91E63;
+    padding: 15px;
+    float: right;
+    text-decoration: none;
+}
+
+.about-text-right {
+    margin-top: 90px;
+}
+
+.about-text-left {
+    margin-top: 90px;
+}
+
+.about-text-left p {
+    text-align: right;
+    font-size: 15px;
+    color: #222;
+    margin-bottom: 50px;
+}
+
+.skillbar {
+    margin-bottom: 24px;
+    position: relative;
+    width: 100%;
+    display: block
+}
+
+.skillbar .skillbar-title {
+    display: inline-block;
+    vertical-align: middle
+}
+
+.skillbar .skillbar-percent {
+    float: right;
+    display: inline-block;
+    vertical-align: middle
+}
+
+.skillbar-bar {
+    background-color: #cecece;
+    width: 100%;
+    height: 5px
+}
+
+.skillbar-bar .skillbar-child-html {
+    width: 95%;
+    height: 100%;
+    background-color: #131010;
+    -webkit-transition-property: width, background-color;
+    -o-transition-property: width, background-color;
+    transition-property: width, background-color
+}
+.skillbar-bar .skillbar-child-java {
+    width: 70%;
+    height: 100%;
+    background-color: #131010;
+    -webkit-transition-property: width, background-color;
+    -o-transition-property: width, background-color;
+    transition-property: width, background-color
+}
+.skillbar-bar .skillbar-child-wordpress {
+    width: 85%;
+    height: 100%;
+    background-color: #131010;
+    -webkit-transition-property: width, background-color;
+    -o-transition-property: width, background-color;
+    transition-property: width, background-color
+}
+.skillbar-bar .skillbar-child-css {
+    width: 70%;
+    height: 100%;
+    background-color: #131010;
+    -webkit-transition-property: width, background-color;
+    -o-transition-property: width, background-color;
+    transition-property: width, background-color
+}
+.skillbar-bar .skillbar-child-joomla {
+    width: 58%;
+    height: 100%;
+    background-color: #131010;
+    -webkit-transition-property: width, background-color;
+    -o-transition-property: width, background-color;
+    transition-property: width, background-color
+}
+
+/*-------About area css ends--------------*/
+
+/*------ 11. Contact area starts-------*/
+
+
+#contact-form {
+    box-shadow: 0 20px 40px rgba(0,0,0,.2);
+    padding: 5%;
+}
+
+.single-contact i {
+    font-size: 30px;
+    color: #E91E63;
+}
+
+.single-contact .socials i {
+    font-size: 14px;
+    color: #000000;
+}
+
+.socials i:hover {
+    cursor: pointer;
+}
+
+.single-contact {
+    margin-bottom: 50px;
+}
+
+.contact-area .form-control{
+    border: none;
+    border-bottom: 2px solid #a2a2a2;
+    box-shadow: none;
+    padding: 6px 0;
+    border-radius: 0;
+    margin-bottom: 30px;
+}
+
+.contact-area textarea.form-control{
+    border:2px solid #a2a2a2;
+    padding: 6px;
+    height: 250px;
+    margin-bottom: 30px;
+}
+
+.single-contact h2 {
+    text-transform: uppercase;
+    font-size: 16px;
+}
+
+.btn.btn-send {
+    background: #E91E63;
+    color: #ffffff;
+    padding: 15px 20px;
+    text-transform: uppercase;
+    font-weight: 600;
+}
+
+.contact-right h2 {
+    font-size: 18px;
+    text-transform: uppercase;
+}
+
+.socials {
+    padding-top: 5%;
+}
+
+.socials i {
+    margin: 0 10px;
+}
+
+.single-contact {
+    box-shadow: 0 20px 40px rgba(0,0,0,.2);
+    padding: 5%;
+}
+
+/*-------- Contact area ends----------- */
+
+/*-------- 12. Brand area starts-----------*/
+
+.brand-logo-img{
+    border:1px solid #ddd;
+    transition: all 300ms ease-in-out;
+    padding: 10px;
+}
+
+.brand-logo-img:hover{
+    border-color: transparent;
+    box-shadow: 0 20px 40px rgba(0,0,0,.2);
+}
+
+/*--------Brand area ends-----------*/
+
+/*--------------13. Footer area starts -------------*/
+
+.footer-area {
+    background: #232323;
+    color: #ffffff;
+    padding: 30px 0;
+}
+
+/*--------------- Footer area ends -------------*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
